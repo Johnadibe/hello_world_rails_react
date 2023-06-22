@@ -9,12 +9,7 @@ const Greeting = () => {
         dispatch(fetchGreeting());
     }, [dispatch]);
     
-    // const greetingData = useSelector((state) => state.greeting.data);
-    
     return (
-        // <div>
-        //     <h1>{greetingData.message}</h1>
-        // </div>
         <>
       {greeting[0] !== undefined && <h1>{greeting[0].message}</h1>}
       <button type="button" onClick={() => dispatch(fetchGreeting())}>Greet</button>
