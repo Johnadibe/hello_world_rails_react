@@ -27,7 +27,7 @@
 
 # 📖 [Hello World with Rails React] <a name="about-project"></a>
 
-**[Hello World with Rails React]** This is a project that demonstrates the use of webpack to bundle JavaScript files with rails at the backend and also show different word for greeting.
+**[Hello World with Rails React]** This is a project that demonstrates the use of webpack to bundle JavaScript files with rails at the backend and also show different words for greeting.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -100,7 +100,7 @@ Install this project with:
 ### Usage
 
 To run the project, execute the following command:
-User have to run this commands in git terminal
+Users have to run these commands in the git terminal
 
 ```sh
   bundle exec foreman start -f Procfile.dev
